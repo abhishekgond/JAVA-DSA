@@ -22,6 +22,7 @@ public class _v_21_problem {
         System.out.println("After : "+a+" ,"+b);
     }
     static int[] RotateArray(int arr[],int k){
+//        Rotate Array From The Right
 
         int ans [] = new int[arr.length];
         k = k % arr.length;

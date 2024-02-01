@@ -23,6 +23,7 @@ public class PW_StringBuilder {
         System.out.println(tb.insert(2,'k'));
         System.out.println(tb.insert(2,90));
         System.out.println(tb.insert(2,"Abhishek kumar "));
+        System.out.println(tb.reverse());
 
 
     }
