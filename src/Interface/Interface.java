@@ -2,8 +2,9 @@ package Interface;
 import java.util.Scanner;
 
 interface creatingInterface {
-    int x =6;
-    static void f1(){
+    int x =6; /*  Variable Type in abstraction are
+                  final + public + static     */
+    static void f1(){ // This is  public + abstract method
         System.out.println(x);
     }
 }
